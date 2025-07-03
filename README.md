@@ -16,12 +16,15 @@ Um aplicativo simples de terminal, feito em Python, para ajudar no controle de g
 
 ## 📁 Estrutura do Projeto
 
+```
 gastos_pessoais/
 ├── __init__.py
 ├── db.py
 ├── controle_de_gastos.py
 ├── requirements.txt
 └── README.md
+
+```
 
 
 ## 🚀 Como Executar
