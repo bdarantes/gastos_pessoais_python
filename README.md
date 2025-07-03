@@ -32,7 +32,7 @@ gastos_pessoais/
 1. Clone o repositório:
 ```bash
 git clone git@github.com:bdarantes/gastos_pessoais_python.git
-cd controle-gastos
+cd gastos_pessoais
 
     (Opcional) Crie e ative um ambiente virtual:
 

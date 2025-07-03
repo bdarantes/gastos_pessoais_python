@@ -17,7 +17,7 @@ def criar_tabela():
 def adicionar_gasto_bd(descricao, valor):
 	conn = conectar_banco()
 	c = conn.cursor()
-	c = execute("INSERT INTO gastos (descricao, valor) VALUES (?,?)", (descricao, valor))
+	c.execute("INSERT INTO gastos (descricao, valor) VALUES (?,?)", (descricao, valor))
 	conn.commit()
 	conn.close()
 	
